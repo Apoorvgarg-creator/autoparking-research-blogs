@@ -1,0 +1,40 @@
+main:
+  - title: "Home"
+    url: /
+  - title: Progress
+    url: /progress
+  - title: "About Me"
+    url: /aboutMe/
+  - title: "Video Logs"
+    url: /vlogs/
+  - title: "Github"
+    url: https://github.com/TheRoboticsClub/gsoc2022-Apoorv_Garg
+
+
+# left side bar
+docs:
+  - title: Progress
+    url: /progress/
+    children:
+    - title: "Learning about SMARTS Simulator"
+      url: /W1
+
+  - title: About
+    children:
+    - title: About the project
+      url: /about/
+    - title: About Me
+      url: /aboutMe/
+    - title: Summary
+      url: /summary/    
+
+  - title: Video Logs
+    children:
+    - title: Youtube
+      url: /vlogs/
+  - title: Issues & PR
+    children:
+    - title: Issues
+      url: /issue/
+    - title: Pull Request
+      url: /pr 

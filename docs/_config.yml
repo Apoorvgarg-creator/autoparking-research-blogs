@@ -25,15 +25,39 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/research-autoparking" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "TheRoboticsClub/gsoc2022-Apoorv_Garg"
+url: https://apoorvgarg-creator.github.io # the base hostname & protocol for your site, e.g. http://example.com
+repository: "Apoorvgarg-creator/autoparking-research-blogs"
 twitter_username: jekyllrb
 github_username:  Apoorvgarg-creator
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+
+minimal_mistakes_skin: "air" # "mint"
+
+logo: "/assets/images/logo.png"
+
+include:
+  - _pages
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/apoorv-garg-371838143/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/APOORVG05548471
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Apoorvgarg-creator"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCFRDPTzUxUq2hUCoPE3LXpQ"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +78,35 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Site Author
+author:
+  name             : "Apoorv Garg"
+  avatar           : "/assets/images/profile_Apoorv.jpeg"
+  bio              : "Software Developer at Wells Fargo"
+  location         : "India"
+  email            :  "apoorvgarg.ms@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/apoorv-garg-371838143/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: https://www.youtube.com/channel/UCFRDPTzUxUq2hUCoPE3LXpQ
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Apoorvgarg-creator"
+
+
+#################################################################################
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      breadcrumbs: true
+      read_time: true

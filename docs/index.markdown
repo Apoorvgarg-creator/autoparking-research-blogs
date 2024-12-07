@@ -7,7 +7,7 @@ permalink: /
 header:
     overlay_color: "#5291C7"
 excerpt:
-    Improving the web templates using React
+    Autoparking
 feature_row:
   - image_path: /assets/images/about_project.jpeg
     alt: "About"
@@ -43,8 +43,6 @@ I am Apoorv Garg, final year student in Netaji Subhas University of technology, 
 
 Mentors:
 
-* David Maria Arribas
-
-* David Roldán
+* Pankhuri Vanjani
 
 * Jose María Cañas
