@@ -8,7 +8,7 @@ main:
   - title: "Video Logs"
     url: /vlogs/
   - title: "Github"
-    url: https://github.com/TheRoboticsClub/gsoc2022-Apoorv_Garg
+    url: https://github.com/Apoorvgarg-creator/autoparking-research-blogs
 
 
 # left side bar
@@ -17,7 +17,7 @@ docs:
     url: /progress/
     children:
     - title: "Learning about SMARTS Simulator"
-      url: /W1
+      url: /W1/
 
   - title: About
     children:
