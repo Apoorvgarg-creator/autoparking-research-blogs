@@ -7,7 +7,7 @@ permalink: /
 header:
     overlay_color: "#5291C7"
 excerpt:
-    Autoparking
+    Developing an Autonomous Parking System Using Reinforcement Learning in the SMARTS Simulator
 feature_row:
   - image_path: /assets/images/about_project.jpeg
     alt: "About"
@@ -37,9 +37,8 @@ feature_row:
 
 {% include feature_row %}
 
-Hello!
 
-I am Apoorv Garg, final year student in Netaji Subhas University of technology, New Delhi, India. This project showcases my contribution for GSoC 2022. The GSoC Project aims to improve and migrate existing web templates by utilising advanced front end technology (REACT). The journey from the initial idea to the final product is illustrated in the [progress report]({{site.url}}/gsoc2022-Apoorv_Garg/progress/). It has been a great experience to work on this project and I hope to continue to contribute to the development of the web templates.
+The primary objective of this research is to train an autonomous vehicle to perform parking maneuvers using RL algorithms. By interacting with a simulated environment, the vehicle learns optimal strategies for parking in various scenarios, including parallel, perpendicular, and angled parking spaces.
 
 Mentors:
 
