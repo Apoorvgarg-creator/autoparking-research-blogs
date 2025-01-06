@@ -11,4 +11,6 @@ sidebar:
 
 ## Exploring Auto-Parking Using Deep Reinforcement Learning (DRL): A Literature Review
 
-This blog provides an overview of existing research on using DRL for autonomous parking systems. It highlights techniques like Q-learning, DDPG, and PPO, and discusses challenges like sparse rewards and dynamic environments. Key studies, datasets, and frameworks are summarized to give you a strong foundation in this cutting-edge field.
+While reading papers on DRL, I found terms like "state-space exploration" and "reward shaping" challenging at first. I overcame this by focusing on specific case studies involving Q-learning and DDPG for parking. For example, one study emphasized using dense rewards instead of sparse ones to accelerate learning.
+
+One key insight I recorded was the trade-off between exploration and exploitation. Applying this to SMARTS means balancing how often the agent explores new parking strategies versus relying on known ones. This paper-inspired insight will guide me as I design my algorithms.

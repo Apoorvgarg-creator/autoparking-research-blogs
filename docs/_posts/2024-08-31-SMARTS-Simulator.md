@@ -10,6 +10,8 @@ sidebar:
   nav: "docs"
 ---
 
-We are starting with a research on autoparking using DRL. First thing, we need to understand is the Simulator for the project. Currently, we found that SMARTS and Carla Simulator are most used once in the area. But SMARTs Simulator is more focussed on the 
+I set up SMARTS by first installing the required dependencies and cloning the SMARTS repository. Following the documentation, I set up the environment using conda. I ran into issues where some dependencies didn’t match my Python version. After some trial and error, I resolved it by creating a new environment with a specific Python version that SMARTS supports.
 
-SMARTS (Scalable Multi-Agent Reinforcement Learning Training Simulator) is a tool designed for training and evaluating autonomous vehicle behavior. This blog walks you through installation, setup, and running your first simulation. Learn about the prerequisites, environment setup, and launching a sample scenario with detailed steps to explore the world of autonomous driving simulations.
+When I tried running the example simulation using examples/single_agent.py, I encountered a runtime error about missing SUMO binaries. I learned that installing SUMO via the recommended channel resolved the issue.
+
+This marks the start of my journey with SMARTS and has already taught me how to troubleshoot and dig deeper into dependency conflicts.

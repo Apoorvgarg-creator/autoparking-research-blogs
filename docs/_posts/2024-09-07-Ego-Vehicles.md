@@ -9,4 +9,15 @@ sidebar:
   nav: "docs"
 ---
 
-An ego vehicle represents the primary agent in an autonomous driving simulation. This blog explains the concept of ego vehicles, their significance in SMARTS, and how to modify their initial positions by editing the map.net.xml file. Step-by-step instructions include decoding the XML format, locating position attributes, and tweaking them to start your vehicle at the desired location on the map.
+Understanding the ego vehicle’s role was straightforward, but customizing its position in the map.net.xml file posed challenges. The XML structure was complex, with multiple edge and lane elements. Initially, I didn’t know which coordinates corresponded to specific map locations. I resolved this by visualizing the map using a SUMO GUI tool, which helped me locate nodes and lanes visually.
+
+Here’s an example of how I modified an edge in the XML:
+
+```xml
+<edge id="edge-1" from="node-3" to="node-4" numLanes="3">
+  <lane index="2" length="50" shape="..."/>
+</edge>
+```
+After updating the file, I ran the simulation and observed that the ego vehicle started at the desired position. Learning to use visualization tools saved me from trial-and-error editing of XML files.
+
+

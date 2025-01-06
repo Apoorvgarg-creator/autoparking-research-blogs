@@ -9,4 +9,12 @@ sidebar:
   nav: "docs"
 ---
 
-Q-learning is a foundational algorithm in reinforcement learning, and this blog demonstrates how to implement it in SMARTS. Learn how to define states, actions, and rewards in the context of auto-parking scenarios. A simple code walkthrough shows how to integrate the Q-learning logic into a SMARTS simulation environment.
+Defining the states and actions for the parking scenario was more complex than I anticipated. Initially, my state representation was too granular, which led to a massive Q-table that was difficult to manage. I simplified it by grouping parking spaces into broader zones.
+
+Here’s how I initialized my Q-table:
+
+```python
+q_table = defaultdict(lambda: [0] * num_actions)
+```
+
+Another obstacle was the reward function. The agent initially got stuck in loops where it kept making unproductive moves. I resolved this by introducing a small negative reward for every step to encourage efficiency. Debugging these issues taught me to iterate on both code and logic incrementally.
